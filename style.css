@@ -123,3 +123,7 @@ body {
 .finished {
   text-decoration: line-through;
 }
+
+.colored {
+  color: gray;
+}

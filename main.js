@@ -86,7 +86,9 @@ deleteAllBtn.onclick = () => {
 //Finished Tasks
 document.addEventListener('click', (e) => {
     if (e.target.classList.contains('task')) {  //If Element has Class "task"
-        e.target.classList.toggle('finished');  //Toggle Class "finished" To This Element
+        e.target.classList.toggle('finished');  //Make Line Through the Finished Task
+        e.target.classList.toggle('colored');  //Change the Color of the Finished Task
     }
+
 })
 
